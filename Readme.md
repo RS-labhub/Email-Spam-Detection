@@ -23,13 +23,9 @@
 
 ###  :movie_camera: Demo
 - After a brief introduction, let's dive a little more inside the project.
-- Here is the walk-through of EMAIL-SMS Detector project. (On clicking the play button, it will redirect to You Tube)
+- Here is the walk-through of EMAIL-SMS Detector project.
 
-<video width="320" height="240" controls>
-  <source src="preview.mp4" type="video/mp4">
-  <source src="preview.ogg" type="video/ogg">
-  Your browser does not support the video tag.
-</video>
+https://github.com/RS-labhub/Email-Spam-Detection/assets/117426013/d315378d-fc2f-4def-a3fc-ec330fda6e53
 
 <p align="center">Video Demonstration</p>
 
