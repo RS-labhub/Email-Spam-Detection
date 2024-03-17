@@ -25,7 +25,7 @@
 - After a brief introduction, let's dive a little more inside the project.
 - Here is the walk-through of EMAIL-SMS Detector project. (On clicking the play button, it will redirect to You Tube)
 
-https://github.com/RS-labhub/Email-Spam-Detection/blob/6ec9a16c6c441151152980223193c362d1db9091/Assets/preview.mp4
+https://github.com/RS-labhub/Assets/preview
 
 <p align="center">Video Demonstration</p>
 
