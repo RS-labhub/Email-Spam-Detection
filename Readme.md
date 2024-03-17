@@ -68,9 +68,8 @@ $~$
 5. Once the application is running, open a web browser and navigate to the specified address, and yeah! you're all set to use the EMAIL-SMS-Detector application.
 <p align="center">
   The running port should look like this
-  <br>
-  <img src="Assets/port.png">
 </p>
+<img align="center" src="Assets/port.png">
 
 ## Usage
 Once EMAIL-SMS-Detector is installed and running, you can use it to check the spam/non-spam messages, input your message in the provided text-area, and get to know the results after clicking on the Predict button.
