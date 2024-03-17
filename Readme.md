@@ -25,7 +25,11 @@
 - After a brief introduction, let's dive a little more inside the project.
 - Here is the walk-through of EMAIL-SMS Detector project. (On clicking the play button, it will redirect to You Tube)
 
-https://github.com/RS-labhub/Assets/preview
+<video width="320" height="240" controls>
+  <source src="preview.mp4" type="video/mp4">
+  <source src="preview.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
 
 <p align="center">Video Demonstration</p>
 
