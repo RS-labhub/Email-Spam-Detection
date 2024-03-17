@@ -113,7 +113,7 @@ $~$
 
 $~$
 
-### :people_holding_hands: The author of the Project
+### :people_holding_hands: Meet the Author
 
 <img  src="Assets/Author.jpg" alt="Author">
 
@@ -127,4 +127,8 @@ $~$
 </p>
 <p align="left">
 <a href="https://www.linkedin.com/in/rohan-sharma-9386rs/" target="blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="rohan-sharma=9386" /></a>
+</p>
+
+<p align="center">
+  Readme created with the help of <a href="https://github.com/quine-sh/README-Template/blob/main/README.md" alt="https://github.com/quine-sh/README-Template/blob/main/README.md">Quine</a>
 </p>
