@@ -26,9 +26,11 @@
 - Here is the walk-through of EMAIL-SMS Detector project. (On clicking the play button, it will redirect to You Tube)
 
 <p align="center">
-    <a href="https://youtu.be">
-        <img src="Assets/Preview.png"/>
-    </a>
+  <video width="320" height="240" controls>
+    <source src="preview.mp4" type="video/mp4">
+    <source src="preview.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+  </video>
 </p>
 <p align="center">Video Demonstration</p>
 
