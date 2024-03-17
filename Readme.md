@@ -68,6 +68,7 @@ $~$
 5. Once the application is running, open a web browser and navigate to the specified address, and yeah! you're all set to use the EMAIL-SMS-Detector application.
 <p align="center">
   The running port should look like this
+  <br>
   <img src="Assets/port.png">
 </p>
 
