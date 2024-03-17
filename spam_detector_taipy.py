@@ -33,22 +33,27 @@ h_text = "Click to classify the spam or ham mail/sms"
 
 page = """
 <|text-center|
+#
 # Email/SMS **Spam**{:.color-primary} Detector
 |>
 
 <|{intro}|>
 
+#
+
 <|{dummy}|input|multiline|class_name=fullwidth|label=Hi there! Rohan Sharma this side!|>
 
+#
 <|text-center|
 
 <|Predict|button|on_action=on_button_action|hover_text = Click to classify the spam or ham mail/sms|center|>
 
+#
 
-<|{message}|input|non active|label= Know the results here!|>
+<|{message}|input|not active|label= Know the results here!|>
 
 
-######Made with **love**{:.color-primary} by Rohan Sharma
+######Made with **LOVE**{:.color-primary} by Rohan Sharma
 |>
 
 """
@@ -65,9 +70,9 @@ def on_change(state):
     result = model.predict(vector_input)[0]
     # 4. Display
     if result == 1:
-        state.text = "Spam"       
+        state.message = "Spam"       
     else:
-       state.text ="Not-Spam"
+       state.message ="Not-Spam"
 
 if __name__ == "__main__":
-    app = Gui(page).run(watermark="""Made with Taipy""",use_reloader=True)
+    app = Gui(page).run(watermark="""Taipy Inside :)""",use_reloader=True)
