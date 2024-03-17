@@ -26,7 +26,7 @@ def transform_text(text):
 tfidf = pickle.load(open('vectorizer.pkl','rb'))
 model = pickle.load(open('model.pkl','rb'))
 
-text = "Enter the message:"
+intro = "Enter the message:"
 dummy = " "
 message = " "
 h_text = "Click to classify the spam or ham mail/sms"
@@ -36,7 +36,7 @@ page = """
 # Email/SMS **Spam**{:.color-primary} Detector
 |>
 
-<|{text}|>
+<|{intro}|>
 
 <|{dummy}|input|multiline|class_name=fullwidth|label=Hi there! Rohan Sharma this side!|>
 
@@ -45,7 +45,8 @@ page = """
 <|Predict|button|on_action=on_button_action|hover_text = Click to classify the spam or ham mail/sms|center|>
 
 
-<|{message}|input|not active|label= Know the results here!|>
+<|{message}|input|non active|label= Know the results here!|>
+
 
 ######Made with **love**{:.color-primary} by Rohan Sharma
 |>
@@ -69,4 +70,4 @@ def on_change(state):
        state.text ="Not-Spam"
 
 if __name__ == "__main__":
-    app = Gui(page).run(use_reloader=True)
+    app = Gui(page).run(watermark="""Made with Taipy""",use_reloader=True)
