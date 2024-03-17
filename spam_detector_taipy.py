@@ -58,7 +58,7 @@ def on_button_action(state):
 
 def on_change(state):
     # 1. preprocess
-    transformed_sms = transform_text(text)
+    transformed_sms = transform_text(intro)
     # 2. vectorize
     vector_input = tfidf.transform([transformed_sms])
     # 3. predict
