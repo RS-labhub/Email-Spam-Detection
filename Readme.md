@@ -13,11 +13,11 @@
 
 ### :books: Index
 
-- [About](#star2-About)
 - [Demo](#movie_camera-Demo)
+- [Screenshots](#letter-screenshots)
 - [Set Up](#outbox_tray-Set-up)
 - [Contribute](#building_construction-Contribute)
-- [Project Author](#people_holding_hands-Our-List-of-Contributors)
+- [Project Author](#people_holding_hands-Meet-the-Author)
 - [Contact](#email-contact)
 
 
