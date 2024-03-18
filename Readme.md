@@ -65,7 +65,7 @@ $~$
 4. Run EMAIL-SMS-Detector application using the following command:
 
   ```py
-    run spam-detector_taipy.py
+    run spam_detector_taipy.py
   ```
 
 5. Once the application is running, open a web browser and navigate to the specified address, and yeah! you're all set to use the EMAIL-SMS-Detector application.
